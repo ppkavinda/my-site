@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bootstrap 2 navbar</title>
+
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src= "js/bootstrap.min.js"></script>
+    <link rel = "stylesheet" href="css/bootstrap.min.css"/>
+    <link rel = "stylesheet" href="css/bootstrap-theme.min.css"/>
+</head>
+<body>
+
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <!--logo -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="#" class="navbar-brand">MY-SITE</a>
+            </div>
+
+            <!-- menu items -->
+            <div class="collapse navbar-collapse" id="mainNavbar">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#" >HOME</a></li>
+                    <li><a href="#">GALLERY</a></li>
+                    <li><a href="#">UPLOAD</a></li>
+                    <li><a href="#">PROFILE</a></li>
+
+                    <!--dropdown menu -->
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Contact <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li ><a href="#">Email</a></li>
+                            <li><a href="#">Telephone</a></li>
+                            <li><a href="#">Skype</a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">Logout</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="well">This is a well.</div>
+        <div class="well well-sm" style="background:lightcyan">This is a small well.</div>
+
+        <div class="alert alert-success">This is an success alert.</div>
+
+        <div class="alert alert-danger">This is a danger alert.</div>
+
+        <div class="alert alert-warning fade in"><a href="#" class="close" data-dismiss="alert" aria-label="close"><span class="glyphicon-music"></span></a>This is a warning alert.</div>
+
+        <div class="alert alert-info fade in"><a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>This is a info alert.</div>
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
